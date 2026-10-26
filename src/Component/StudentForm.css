@@ -1,0 +1,45 @@
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px #00000010;
+}
+
+.student-form label {
+  font-weight: bold;
+  color: #333333;
+}
+
+.student-form input,
+.student-form select {
+  padding: 11px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.student-form input:focus,
+.student-form select:focus {
+  outline: 2px solid #93c5fd;
+  border-color: #2563eb;
+}
+
+.student-form button {
+  margin-top: 10px;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.student-form button:hover {
+  background: #1d4ed8;
+}
